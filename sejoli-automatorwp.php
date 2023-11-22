@@ -43,27 +43,13 @@ add_action('muplugins_loaded', 'sejoli_automatorwp_check_required_plugin');
 
 function sejoli_automatorwp_check_required_plugin() {
 
-    if(!defined('SEJOLISA_VERSION')) :
+    if(!defined('SEJOLISA_VERSION') && !defined('AUTOMATORWP_VER')) :
 
         add_action('admin_notices', 'sejoli_automatorwp_notice_functions');
 
         function sejoli_automatorwp_notice_functions() {
             ?><div class='notice notice-error'>
-            <p><?php _e('Anda belum menginstall atau mengaktifkan plugin SEJOLI!.', 'sejoli-automatorwp'); ?></p>
-            </div><?php
-        }
-
-        return;
-
-    endif;
-
-    if(!defined('AUTOMATOR_PLUGIN_VERSION')) :
-
-        add_action('admin_notices', 'sejoli_automatorwp_notice_functions');
-
-        function sejoli_automatorwp_notice_functions() {
-            ?><div class='notice notice-error'>
-            <p><?php _e('Anda belum menginstall atau mengaktifkan plugin UNCANNY AUTOMATOR!.', 'sejoli-automatorwp'); ?></p>
+            <p><?php _e('Anda belum menginstall atau mengaktifkan plugin SEJOLI & AUTOMATORWP!.', 'sejoli-automatorwp'); ?></p>
             </div><?php
         }
 

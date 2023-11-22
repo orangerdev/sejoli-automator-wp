@@ -10,8 +10,6 @@
 if( !defined( 'ABSPATH' ) ) exit;
 
 // Includes
-// require_once SEJOLI_AUTOMATORWP_DIR . 'includes/filters.php';
-// require_once SEJOLI_AUTOMATORWP_DIR . 'includes/functions.php';
 require_once SEJOLI_AUTOMATORWP_DIR . 'admin/sejoli/tags/tags.php';
 
 // Triggers
@@ -22,34 +20,6 @@ require_once SEJOLI_AUTOMATORWP_DIR . 'admin/sejoli/triggers/order-subscription-
 require_once SEJOLI_AUTOMATORWP_DIR . 'admin/sejoli/triggers/order-subscription-regular.php';
 require_once SEJOLI_AUTOMATORWP_DIR . 'admin/sejoli/triggers/order-subscription-tryout.php';
 require_once SEJOLI_AUTOMATORWP_DIR . 'admin/sejoli/triggers/new-commission.php';
-
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/login.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/visit-site.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/view-post.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/view-post-category.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/view-post-tag.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/view-page.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/view-post-type.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/view-post-taxonomy.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/publish-post.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/publish-post-category.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/publish-post-tag.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/publish-page.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/publish-post-type.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/publish-post-taxonomy.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/delete-post.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/delete-post-type.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/delete-post-taxonomy.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/post-type-status.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/comment-post.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/comment-post-category.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/comment-post-tag.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/comment-page.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/comment-post-type.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/comment-post-taxonomy.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/post-updated.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/post-type-updated.php';
-// require_once plugin_dir_path( __FILE__ ) . 'triggers/post-taxonomy-updated.php';
 
 // Anonymous Triggers
 require_once SEJOLI_AUTOMATORWP_DIR . 'admin/sejoli/triggers/anonymous-new-order.php';
